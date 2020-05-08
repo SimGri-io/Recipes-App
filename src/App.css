@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  min-width: 320px;
+}
+
+.app-container{
+  display: block;
+  margin-top: 4rem;
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+.main-logo{
+  width: 11rem;
+  margin-top: -4rem;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: rgb(116, 30, 37);
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* search bar */
+.search-form{
+  display: grid;
+  justify-content: center;
+  padding: 2rem;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+.search-bar{
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 3rem;
+  border: none;
+  outline:none;
+  box-shadow: 5px 10px 10px 10px rgba(192, 69, 79, 0.12), 3px 6px 6px 6px rgba(48, 77, 27, 0.24);
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center
+}
+.search-button{
+  margin-right: auto;
+  margin-left: auto;
+  width: 10rem;
+  height: 2.5rem;
+  border:none;
+  outline: none;
+  background-color: rgb(192, 69, 79);
+  border-radius: 5px;
+  box-shadow: 5px 10px 10px 10px rgba(192, 69, 79, 0.12), 3px 6px 6px 6px rgba(48, 77, 27, 0.24);
+  color: rgb(236, 215, 143);
+  font-size: 18px;
+}
+.search-button:active{
+  background-color: rgb(122, 45, 51);
+}
+/* recipe */
+.recipe-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 12rem;
+  grid-row-gap: 3rem;
+  margin: 4rem;
+}
+.recipe-container{
+  display: grid;
+  justify-content: center;
+  margin-bottom: 4rem;
+  box-shadow: 5px 10px 10px 10px rgba(192, 69, 79, 0.12), 3px 6px 6px 6px rgba(48, 77, 27, 0.24);
+  padding: 1rem;
+  transition: all 0.7s linear;
+  background-color: white;
+}
+.recipe-container:hover{
+  transform: scale(1.1);
+}
+
+@media screen and (min-width:320px){
+  html{
+    min-width: 320px;
+  }
+  .app-container{
+    width: 100vw;
+  }
+  .recipe-container{
+    display: block;
+  }
+
+  .recipe-list{
+    display: block;
+    width: 22rem;
+  }
+  .list-items{
+    font-size: 16px;
+  }
+  .style-ingred{
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .recipe-container{
+    display: grid;
+  }
+  .recipe-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+  }
+  .list-items{
+    font-size: 20px;
+  }
+  .style-ingred{
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width:1024px){
+  .recipe-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4rem;
+    width: 70rem;
+  }
+  .main-logo{
+    width: 14rem;
+}
+  .recipe-container:hover{
+    transform: scale(1.2);
+}
+}
+
+.image{
+  display: grid;
+  justify-content: center;
+}
+
+.food-image{
+  display: grid;
+  justify-content: center;
+  border-radius: 50%;
+  width: 8rem;
+}
+.recipe-list{
+  text-align: center;
+}
+.food-title{
+  padding: 0.5rem;
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+}
+.list-items{
+  line-height: 1.3;
+  font-family: 'Baloo 2', cursive;
+  font-size: 14px;
+}
+.h-label{
+  list-style: none;
+
+}
+.ingredients{
+  list-style: none;
+}
+.style-ingred{
+  color:rgb(122, 45, 51);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 4px;
+}
