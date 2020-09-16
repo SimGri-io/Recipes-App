@@ -9,7 +9,7 @@
 
 ![](https://media.giphy.com/media/iHxuCkL3F6dNC9L0v6/giphy.gif)
 
-![](https://media.giphy.com/media/jmr4GZ9JmvzGEFfbaP/giphy.gif)
+![](https://github.com/SimGri-io/Recipes-App/blob/master/Recipe-Leaf-and-1-more-page-Prof.gif)
 
 ## See project preview: 
 
