@@ -7,7 +7,7 @@
 - Recipes API
 - CSS
 
-![](https://media.giphy.com/media/iHxuCkL3F6dNC9L0v6/giphy.gif)
+![](https://github.com/SimGri-io/Recipes-App/blob/master/SimGri-io-Recipes-App-Recipes-ap%20(3).gif)
 
 ![](https://github.com/SimGri-io/Recipes-App/blob/master/Recipe-Leaf-and-1-more-page-Prof.gif)
 
